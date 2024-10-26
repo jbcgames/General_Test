@@ -10,21 +10,21 @@ McPAT (version 1.3 of Feb, 2015) results (current print level is 0, please incre
 
 *****************************************************************************************
 Processor: 
-  Area = 42.6106 mm^2
-  Peak Power = 41.8965 W
-  Total Leakage = 0.754826 W
-  Peak Dynamic = 41.1417 W
-  Subthreshold Leakage = 0.741858 W
-  Gate Leakage = 0.0129684 W
-  Runtime Dynamic = 2.67479 W
+  Area = 42.6071 mm^2
+  Peak Power = 41.9017 W
+  Total Leakage = 0.757966 W
+  Peak Dynamic = 41.1437 W
+  Subthreshold Leakage = 0.744942 W
+  Gate Leakage = 0.0130248 W
+  Runtime Dynamic = 2.67499 W
 
   Total Cores: 1 cores 
   Device Type= ITRS high performance device type
-    Area = 31.6965 mm^2
-    Peak Dynamic = 36.8932 W
-    Subthreshold Leakage = 0.51365 W
-    Gate Leakage = 0.00777382 W
-    Runtime Dynamic = 2.29673 W
+    Area = 31.693 mm^2
+    Peak Dynamic = 36.8953 W
+    Subthreshold Leakage = 0.516735 W
+    Gate Leakage = 0.00783018 W
+    Runtime Dynamic = 2.29695 W
 
   Total L3s: 
   Device Type= ITRS high performance device type
@@ -32,7 +32,7 @@ Processor:
     Peak Dynamic = 0.405545 W
     Subthreshold Leakage = 0.162935 W
     Gate Leakage = 0.0034626 W
-    Runtime Dynamic = 1.7076e-05 W
+    Runtime Dynamic = 1.44263e-05 W
 
   Total First Level Directory: 
   Device Type= ITRS high performance device type
@@ -40,7 +40,7 @@ Processor:
     Peak Dynamic = 0.0171798 W
     Subthreshold Leakage = 0.00271355 W
     Gate Leakage = 0.000105986 W
-    Runtime Dynamic = 0.000582817 W
+    Runtime Dynamic = 0.000582912 W
 
   Total Second Level Directory: 
   Device Type= ITRS high performance device type
@@ -48,15 +48,15 @@ Processor:
     Peak Dynamic = 0.0158601 W
     Subthreshold Leakage = 0.0590133 W
     Gate Leakage = 0.0014502 W
-    Runtime Dynamic = 3.06773e-05 W
+    Runtime Dynamic = 3.06824e-05 W
 
   Total NoCs (Network/Bus): 
   Device Type= ITRS high performance device type
-    Area = 0.0413798 mm^2
-    Peak Dynamic = 0.051342 W
-    Subthreshold Leakage = 0.00134395 W
-    Gate Leakage = 3.7178e-05 W
-    Runtime Dynamic = 0.000114001 W
+    Area = 0.0413781 mm^2
+    Peak Dynamic = 0.0513399 W
+    Subthreshold Leakage = 0.00134389 W
+    Gate Leakage = 3.71765e-05 W
+    Runtime Dynamic = 0.000114015 W
 
   Total MCs: 1 Memory Controllers 
   Device Type= ITRS high performance device type
@@ -64,6 +64,6 @@ Processor:
     Peak Dynamic = 3.75856 W
     Subthreshold Leakage = 0.00220167 W
     Gate Leakage = 0.000138626 W
-    Runtime Dynamic = 0.377317 W
+    Runtime Dynamic = 0.377298 W
 
 *****************************************************************************************

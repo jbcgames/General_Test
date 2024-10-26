@@ -1573,7 +1573,7 @@
                 "addr_ranges": [
                     "0:18446744073709551615"
                 ],
-                "assoc": 2,
+                "assoc": 8,
                 "clk_domain": "system.clk_domain",
                 "clusivity": "mostly_incl",
                 "compressor": null,
@@ -1672,7 +1672,7 @@
                     "name": "replacement_policy",
                     "path": "system.cpu.l2cache.replacement_policy",
                     "eventq_index": 0,
-                    "num_leaves": 2
+                    "num_leaves": 8
                 },
                 "response_latency": 9,
                 "sequential_access": false,
@@ -1684,7 +1684,7 @@
                     "cxx_class": "gem5::BaseSetAssoc",
                     "name": "tags",
                     "path": "system.cpu.l2cache.tags",
-                    "assoc": 2,
+                    "assoc": 8,
                     "block_size": 64,
                     "clk_domain": "system.clk_domain",
                     "entry_size": 64,
@@ -1694,7 +1694,7 @@
                         "cxx_class": "gem5::SetAssociative",
                         "name": "indexing_policy",
                         "path": "system.cpu.l2cache.tags.indexing_policy",
-                        "assoc": 2,
+                        "assoc": 8,
                         "entry_size": 64,
                         "eventq_index": 0,
                         "size": 2097152
