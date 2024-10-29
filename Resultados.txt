@@ -1,0 +1,501 @@
+811041.El rendimiento esta dado en IPC el consumo en Runtime Dynamic, estos son los resultados de cada una de las 18 pruebas:
+Prueba 1:
+config.xml movido a h264decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.62837
+Runtime Dynamic para h264_dec con l2_size=512kB: 2.62837
+Resultado IPC para h264_dec con l2_size=512kB: 1.082602
+config.xml movido a h264encResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.11014
+Runtime Dynamic para h264_enc con l2_size=512kB: 2.11014
+Resultado IPC para h264_enc con l2_size=512kB: 1.003238
+config.xml movido a hjgpdecResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.81104
+Runtime Dynamic para jpg2k_dec con l2_size=512kB: 2.81104
+Resultado IPC para jpg2k_dec con l2_size=512kB: 0.832631
+config.xml movido a hjgpencResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+3.02929
+Runtime Dynamic para jpg2k_enc con l2_size=512kB: 3.02929
+Resultado IPC para jpg2k_enc con l2_size=512kB: 0.897737
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.02469
+Runtime Dynamic para mp3_dec con l2_size=512kB: 2.02469
+Resultado IPC para mp3_dec con l2_size=512kB: 1.059258
+config.xml movido a mp3encResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+1.43548
+Runtime Dynamic para mp3_enc con l2_size=512kB: 1.43548
+Resultado IPC para mp3_enc con l2_size=512kB: 0.806164
+Prueba 2:
+config.xml movido a h264decResult_l21MB_l34MB_nfu1_intALU2/config.xml
+2.66507
+Runtime Dynamic para h264_dec con l2_size=1MB: 2.66507
+Resultado IPC para h264_dec con l2_size=1MB: 1.100934
+config.xml movido a h264encResult_l21MB_l34MB_nfu1_intALU2/config.xml
+2.17009
+Runtime Dynamic para h264_enc con l2_size=1MB: 2.17009
+Resultado IPC para h264_enc con l2_size=1MB: 1.04034
+config.xml movido a hjgpdecResult_l21MB_l34MB_nfu1_intALU2/config.xml
+2.81484
+Runtime Dynamic para jpg2k_dec con l2_size=1MB: 2.81484
+Resultado IPC para jpg2k_dec con l2_size=1MB: 0.834011
+config.xml movido a hjgpencResult_l21MB_l34MB_nfu1_intALU2/config.xml
+3.03241
+Runtime Dynamic para jpg2k_enc con l2_size=1MB: 3.03241
+Resultado IPC para jpg2k_enc con l2_size=1MB: 0.898979
+config.xml movido a mp3decResult_l21MB_l34MB_nfu1_intALU2/config.xml
+2.02476
+Runtime Dynamic para mp3_dec con l2_size=1MB: 2.02476
+Resultado IPC para mp3_dec con l2_size=1MB: 1.059253
+config.xml movido a mp3encResult_l21MB_l34MB_nfu1_intALU2/config.xml
+1.43619
+Runtime Dynamic para mp3_enc con l2_size=1MB: 1.43619
+Resultado IPC para mp3_enc con l2_size=1MB: 0.80661
+Prueba 3:
+config.xml movido a h264decResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.67479
+Runtime Dynamic para h264_dec con l2_size=2MB: 2.67479
+Resultado IPC para h264_dec con l2_size=2MB: 1.105373
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.19836
+Runtime Dynamic para h264_enc con l2_size=2MB: 2.19836
+Resultado IPC para h264_enc con l2_size=2MB: 1.056809
+config.xml movido a hjgpdecResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.81443
+Runtime Dynamic para jpg2k_dec con l2_size=2MB: 2.81443
+Resultado IPC para jpg2k_dec con l2_size=2MB: 0.833896
+config.xml movido a hjgpencResult_l22MB_l34MB_nfu1_intALU2/config.xml
+3.0362
+Runtime Dynamic para jpg2k_enc con l2_size=2MB: 3.0362
+Resultado IPC para jpg2k_enc con l2_size=2MB: 0.900538
+config.xml movido a mp3decResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.02487
+Runtime Dynamic para mp3_dec con l2_size=2MB: 2.02487
+Resultado IPC para mp3_dec con l2_size=2MB: 1.059257
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43662
+Runtime Dynamic para mp3_enc con l2_size=2MB: 1.43662
+Resultado IPC para mp3_enc con l2_size=2MB: 0.806953
+Mejores L2 size por proceso: {'h264_dec': '2MB', 'h264_enc': '2MB', 'jpg2k_dec': '1MB', 'jpg2k_enc': '2MB', 'mp3_dec': '512kB', 'mp3_enc': '2MB'}
+Prueba 4:
+config.xml movido a h264decResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.67479
+Runtime Dynamic para h264_dec con l2_assoc=2: 2.67479
+Resultado IPC para h264_dec con l2_assoc=2: 1.105373
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.19836
+Runtime Dynamic para h264_enc con l2_assoc=2: 2.19836
+Resultado IPC para h264_enc con l2_assoc=2: 1.056809
+config.xml movido a hjgpdecResult_l21MB_l34MB_nfu1_intALU2/config.xml
+2.81484
+Runtime Dynamic para jpg2k_dec con l2_assoc=2: 2.81484
+Resultado IPC para jpg2k_dec con l2_assoc=2: 0.834011
+config.xml movido a hjgpencResult_l22MB_l34MB_nfu1_intALU2/config.xml
+3.0362
+Runtime Dynamic para jpg2k_enc con l2_assoc=2: 3.0362
+Resultado IPC para jpg2k_enc con l2_assoc=2: 0.900538
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.02469
+Runtime Dynamic para mp3_dec con l2_assoc=2: 2.02469
+Resultado IPC para mp3_dec con l2_assoc=2: 1.059258
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43662
+Runtime Dynamic para mp3_enc con l2_assoc=2: 1.43662
+Resultado IPC para mp3_enc con l2_assoc=2: 0.806953
+Prueba 5:
+config.xml movido a h264decResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.67498
+Runtime Dynamic para h264_dec con l2_assoc=4: 2.67498
+Resultado IPC para h264_dec con l2_assoc=4: 1.105512
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.20145
+Runtime Dynamic para h264_enc con l2_assoc=4: 2.20145
+Resultado IPC para h264_enc con l2_assoc=4: 1.058638
+config.xml movido a hjgpdecResult_l21MB_l34MB_nfu1_intALU2/config.xml
+2.81493
+Runtime Dynamic para jpg2k_dec con l2_assoc=4: 2.81493
+Resultado IPC para jpg2k_dec con l2_assoc=4: 0.834039
+config.xml movido a hjgpencResult_l22MB_l34MB_nfu1_intALU2/config.xml
+3.03426
+Runtime Dynamic para jpg2k_enc con l2_assoc=4: 3.03426
+Resultado IPC para jpg2k_enc con l2_assoc=4: 0.899731
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.0247
+Runtime Dynamic para mp3_dec con l2_assoc=4: 2.0247
+Resultado IPC para mp3_dec con l2_assoc=4: 1.059258
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43671
+Runtime Dynamic para mp3_enc con l2_assoc=4: 1.43671
+Resultado IPC para mp3_enc con l2_assoc=4: 0.807024
+Prueba 6:
+config.xml movido a h264decResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.67499
+Runtime Dynamic para h264_dec con l2_assoc=8: 2.67499
+Resultado IPC para h264_dec con l2_assoc=8: 1.105553
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.20144
+Runtime Dynamic para h264_enc con l2_assoc=8: 2.20144
+Resultado IPC para h264_enc con l2_assoc=8: 1.058631
+config.xml movido a hjgpdecResult_l21MB_l34MB_nfu1_intALU2/config.xml
+2.81486
+Runtime Dynamic para jpg2k_dec con l2_assoc=8: 2.81486
+Resultado IPC para jpg2k_dec con l2_assoc=8: 0.83401
+config.xml movido a hjgpencResult_l22MB_l34MB_nfu1_intALU2/config.xml
+3.03437
+Runtime Dynamic para jpg2k_enc con l2_assoc=8: 3.03437
+Resultado IPC para jpg2k_enc con l2_assoc=8: 0.899767
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.02469
+Runtime Dynamic para mp3_dec con l2_assoc=8: 2.02469
+Resultado IPC para mp3_dec con l2_assoc=8: 1.059254
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43643
+Runtime Dynamic para mp3_enc con l2_assoc=8: 1.43643
+Resultado IPC para mp3_enc con l2_assoc=8: 0.806777
+Mejores L2 assoc por proceso: {'h264_dec': 8, 'h264_enc': 4, 'jpg2k_dec': 4, 'jpg2k_enc': 2, 'mp3_dec': 2, 'mp3_enc': 4}
+Prueba 7:
+config.xml movido a h264decResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.67499
+Runtime Dynamic para h264_dec con l3_size=4MB: 2.67499
+Resultado IPC para h264_dec con l3_size=4MB: 1.105553
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.20145
+Runtime Dynamic para h264_enc con l3_size=4MB: 2.20145
+Resultado IPC para h264_enc con l3_size=4MB: 1.058638
+config.xml movido a hjgpdecResult_l21MB_l34MB_nfu1_intALU2/config.xml
+2.81493
+Runtime Dynamic para jpg2k_dec con l3_size=4MB: 2.81493
+Resultado IPC para jpg2k_dec con l3_size=4MB: 0.834039
+config.xml movido a hjgpencResult_l22MB_l34MB_nfu1_intALU2/config.xml
+3.0362
+Runtime Dynamic para jpg2k_enc con l3_size=4MB: 3.0362
+Resultado IPC para jpg2k_enc con l3_size=4MB: 0.900538
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.02469
+Runtime Dynamic para mp3_dec con l3_size=4MB: 2.02469
+Resultado IPC para mp3_dec con l3_size=4MB: 1.059258
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43671
+Runtime Dynamic para mp3_enc con l3_size=4MB: 1.43671
+Resultado IPC para mp3_enc con l3_size=4MB: 0.807024
+Prueba 8:
+config.xml movido a h264decResult_l22MB_l38MB_nfu1_intALU2/config.xml
+2.6752
+Runtime Dynamic para h264_dec con l3_size=8MB: 2.6752
+Resultado IPC para h264_dec con l3_size=8MB: 1.105657
+config.xml movido a h264encResult_l22MB_l38MB_nfu1_intALU2/config.xml
+2.20145
+Runtime Dynamic para h264_enc con l3_size=8MB: 2.20145
+Resultado IPC para h264_enc con l3_size=8MB: 1.058638
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu1_intALU2/config.xml
+2.81518
+Runtime Dynamic para jpg2k_dec con l3_size=8MB: 2.81518
+Resultado IPC para jpg2k_dec con l3_size=8MB: 0.834105
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu1_intALU2/config.xml
+3.04274
+Runtime Dynamic para jpg2k_enc con l3_size=8MB: 3.04274
+Resultado IPC para jpg2k_enc con l3_size=8MB: 0.903265
+config.xml movido a mp3decResult_l2512kB_l38MB_nfu1_intALU2/config.xml
+2.0247
+Runtime Dynamic para mp3_dec con l3_size=8MB: 2.0247
+Resultado IPC para mp3_dec con l3_size=8MB: 1.059258
+config.xml movido a mp3encResult_l22MB_l38MB_nfu1_intALU2/config.xml
+1.43672
+Runtime Dynamic para mp3_enc con l3_size=8MB: 1.43672
+Resultado IPC para mp3_enc con l3_size=8MB: 0.807024
+Prueba 9:
+config.xml movido a h264decResult_l22MB_l316MB_nfu1_intALU2/config.xml
+2.67522
+Runtime Dynamic para h264_dec con l3_size=16MB: 2.67522
+Resultado IPC para h264_dec con l3_size=16MB: 1.105657
+config.xml movido a h264encResult_l22MB_l316MB_nfu1_intALU2/config.xml
+2.20146
+Runtime Dynamic para h264_enc con l3_size=16MB: 2.20146
+Resultado IPC para h264_enc con l3_size=16MB: 1.058638
+config.xml movido a hjgpdecResult_l21MB_l316MB_nfu1_intALU2/config.xml
+2.81529
+Runtime Dynamic para jpg2k_dec con l3_size=16MB: 2.81529
+Resultado IPC para jpg2k_dec con l3_size=16MB: 0.834105
+config.xml movido a hjgpencResult_l22MB_l316MB_nfu1_intALU2/config.xml
+3.0425
+Runtime Dynamic para jpg2k_enc con l3_size=16MB: 3.0425
+Resultado IPC para jpg2k_enc con l3_size=16MB: 0.903133
+config.xml movido a mp3decResult_l2512kB_l316MB_nfu1_intALU2/config.xml
+2.02471
+Runtime Dynamic para mp3_dec con l3_size=16MB: 2.02471
+Resultado IPC para mp3_dec con l3_size=16MB: 1.059258
+config.xml movido a mp3encResult_l22MB_l316MB_nfu1_intALU2/config.xml
+1.43673
+Runtime Dynamic para mp3_enc con l3_size=16MB: 1.43673
+Resultado IPC para mp3_enc con l3_size=16MB: 0.807024
+Mejores L3 size por proceso: {'h264_dec': '8MB', 'h264_enc': '4MB', 'jpg2k_dec': '8MB', 'jpg2k_enc': '8MB', 'mp3_dec': '4MB', 'mp3_enc': '4MB'}
+Prueba 10:
+config.xml movido a h264decResult_l22MB_l38MB_nfu1_intALU2/config.xml
+2.6752
+Runtime Dynamic para h264_dec con l3_assoc=8: 2.6752
+Resultado IPC para h264_dec con l3_assoc=8: 1.105657
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.20145
+Runtime Dynamic para h264_enc con l3_assoc=8: 2.20145
+Resultado IPC para h264_enc con l3_assoc=8: 1.058638
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu1_intALU2/config.xml
+2.81518
+Runtime Dynamic para jpg2k_dec con l3_assoc=8: 2.81518
+Resultado IPC para jpg2k_dec con l3_assoc=8: 0.834105
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu1_intALU2/config.xml
+3.04274
+Runtime Dynamic para jpg2k_enc con l3_assoc=8: 3.04274
+Resultado IPC para jpg2k_enc con l3_assoc=8: 0.903265
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.02469
+Runtime Dynamic para mp3_dec con l3_assoc=8: 2.02469
+Resultado IPC para mp3_dec con l3_assoc=8: 1.059258
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43671
+Runtime Dynamic para mp3_enc con l3_assoc=8: 1.43671
+Resultado IPC para mp3_enc con l3_assoc=8: 0.807024
+Prueba 11:
+config.xml movido a h264decResult_l22MB_l38MB_nfu1_intALU2/config.xml
+2.6752
+Runtime Dynamic para h264_dec con l3_assoc=16: 2.6752
+Resultado IPC para h264_dec con l3_assoc=16: 1.105657
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.20145
+Runtime Dynamic para h264_enc con l3_assoc=16: 2.20145
+Resultado IPC para h264_enc con l3_assoc=16: 1.058638
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu1_intALU2/config.xml
+2.81518
+Runtime Dynamic para jpg2k_dec con l3_assoc=16: 2.81518
+Resultado IPC para jpg2k_dec con l3_assoc=16: 0.834105
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu1_intALU2/config.xml
+3.04236
+Runtime Dynamic para jpg2k_enc con l3_assoc=16: 3.04236
+Resultado IPC para jpg2k_enc con l3_assoc=16: 0.903129
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.02469
+Runtime Dynamic para mp3_dec con l3_assoc=16: 2.02469
+Resultado IPC para mp3_dec con l3_assoc=16: 1.059258
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43671
+Runtime Dynamic para mp3_enc con l3_assoc=16: 1.43671
+Resultado IPC para mp3_enc con l3_assoc=16: 0.807024
+Prueba 12:
+config.xml movido a h264decResult_l22MB_l38MB_nfu1_intALU2/config.xml
+2.6752
+Runtime Dynamic para h264_dec con l3_assoc=32: 2.6752
+Resultado IPC para h264_dec con l3_assoc=32: 1.105657
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.20145
+Runtime Dynamic para h264_enc con l3_assoc=32: 2.20145
+Resultado IPC para h264_enc con l3_assoc=32: 1.058638
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu1_intALU2/config.xml
+2.81518
+Runtime Dynamic para jpg2k_dec con l3_assoc=32: 2.81518
+Resultado IPC para jpg2k_dec con l3_assoc=32: 0.834105
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu1_intALU2/config.xml
+3.04237
+Runtime Dynamic para jpg2k_enc con l3_assoc=32: 3.04237
+Resultado IPC para jpg2k_enc con l3_assoc=32: 0.903133
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.02469
+Runtime Dynamic para mp3_dec con l3_assoc=32: 2.02469
+Resultado IPC para mp3_dec con l3_assoc=32: 1.059258
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43671
+Runtime Dynamic para mp3_enc con l3_assoc=32: 1.43671
+Resultado IPC para mp3_enc con l3_assoc=32: 0.807024
+Mejores L3 assoc por proceso: {'h264_dec': 8, 'h264_enc': 8, 'jpg2k_dec': 8, 'jpg2k_enc': 8, 'mp3_dec': 8, 'mp3_enc': 8}
+Prueba 13:
+config.xml movido a h264decResult_l22MB_l38MB_nfu1_intALU2/config.xml
+2.6752
+Runtime Dynamic para h264_dec con num_fu_read=1: 2.6752
+Resultado IPC para h264_dec con num_fu_read=1: 1.105657
+config.xml movido a h264encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+2.20145
+Runtime Dynamic para h264_enc con num_fu_read=1: 2.20145
+Resultado IPC para h264_enc con num_fu_read=1: 1.058638
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu1_intALU2/config.xml
+2.81518
+Runtime Dynamic para jpg2k_dec con num_fu_read=1: 2.81518
+Resultado IPC para jpg2k_dec con num_fu_read=1: 0.834105
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu1_intALU2/config.xml
+3.04274
+Runtime Dynamic para jpg2k_enc con num_fu_read=1: 3.04274
+Resultado IPC para jpg2k_enc con num_fu_read=1: 0.903265
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu1_intALU2/config.xml
+2.02469
+Runtime Dynamic para mp3_dec con num_fu_read=1: 2.02469
+Resultado IPC para mp3_dec con num_fu_read=1: 1.059258
+config.xml movido a mp3encResult_l22MB_l34MB_nfu1_intALU2/config.xml
+1.43671
+Runtime Dynamic para mp3_enc con num_fu_read=1: 1.43671
+Resultado IPC para mp3_enc con num_fu_read=1: 0.807024
+Prueba 14:
+config.xml movido a h264decResult_l22MB_l38MB_nfu2_intALU2/config.xml
+2.69428
+Runtime Dynamic para h264_dec con num_fu_read=2: 2.69428
+Resultado IPC para h264_dec con num_fu_read=2: 1.123739
+config.xml movido a h264encResult_l22MB_l34MB_nfu2_intALU2/config.xml
+2.21073
+Runtime Dynamic para h264_enc con num_fu_read=2: 2.21073
+Resultado IPC para h264_enc con num_fu_read=2: 1.072461
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu2_intALU2/config.xml
+2.83441
+Runtime Dynamic para jpg2k_dec con num_fu_read=2: 2.83441
+Resultado IPC para jpg2k_dec con num_fu_read=2: 0.843714
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu2_intALU2/config.xml
+3.05897
+Runtime Dynamic para jpg2k_enc con num_fu_read=2: 3.05897
+Resultado IPC para jpg2k_enc con num_fu_read=2: 0.913115
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu2_intALU2/config.xml
+2.04119
+Runtime Dynamic para mp3_dec con num_fu_read=2: 2.04119
+Resultado IPC para mp3_dec con num_fu_read=2: 1.0868
+config.xml movido a mp3encResult_l22MB_l34MB_nfu2_intALU2/config.xml
+1.45651
+Runtime Dynamic para mp3_enc con num_fu_read=2: 1.45651
+Resultado IPC para mp3_enc con num_fu_read=2: 0.834586
+Prueba 15:
+config.xml movido a h264decResult_l22MB_l38MB_nfu4_intALU2/config.xml
+2.6949
+Runtime Dynamic para h264_dec con num_fu_read=4: 2.6949
+Resultado IPC para h264_dec con num_fu_read=4: 1.125778
+config.xml movido a h264encResult_l22MB_l34MB_nfu4_intALU2/config.xml
+2.21114
+Runtime Dynamic para h264_enc con num_fu_read=4: 2.21114
+Resultado IPC para h264_enc con num_fu_read=4: 1.073819
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu4_intALU2/config.xml
+2.83363
+Runtime Dynamic para jpg2k_dec con num_fu_read=4: 2.83363
+Resultado IPC para jpg2k_dec con num_fu_read=4: 0.843666
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu4_intALU2/config.xml
+3.05967
+Runtime Dynamic para jpg2k_enc con num_fu_read=4: 3.05967
+Resultado IPC para jpg2k_enc con num_fu_read=4: 0.914028
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu4_intALU2/config.xml
+2.05666
+Runtime Dynamic para mp3_dec con num_fu_read=4: 2.05666
+Resultado IPC para mp3_dec con num_fu_read=4: 1.103426
+config.xml movido a mp3encResult_l22MB_l34MB_nfu4_intALU2/config.xml
+1.45585
+Runtime Dynamic para mp3_enc con num_fu_read=4: 1.45585
+Resultado IPC para mp3_enc con num_fu_read=4: 0.837098
+Mejores num_fu_read por proceso: {'h264_dec': 4, 'h264_enc': 4, 'jpg2k_dec': 2, 'jpg2k_enc': 4, 'mp3_dec': 4, 'mp3_enc': 4}
+Prueba 16:
+config.xml movido a h264decResult_l22MB_l38MB_nfu4_intALU2/config.xml
+2.6949
+Runtime Dynamic para h264_dec con num_fu_intALU=2: 2.6949
+Resultado IPC para h264_dec con num_fu_intALU=2: 1.125778
+config.xml movido a h264encResult_l22MB_l34MB_nfu4_intALU2/config.xml
+2.21114
+Runtime Dynamic para h264_enc con num_fu_intALU=2: 2.21114
+Resultado IPC para h264_enc con num_fu_intALU=2: 1.073819
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu2_intALU2/config.xml
+2.83441
+Runtime Dynamic para jpg2k_dec con num_fu_intALU=2: 2.83441
+Resultado IPC para jpg2k_dec con num_fu_intALU=2: 0.843714
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu4_intALU2/config.xml
+3.05967
+Runtime Dynamic para jpg2k_enc con num_fu_intALU=2: 3.05967
+Resultado IPC para jpg2k_enc con num_fu_intALU=2: 0.914028
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu4_intALU2/config.xml
+2.05666
+Runtime Dynamic para mp3_dec con num_fu_intALU=2: 2.05666
+Resultado IPC para mp3_dec con num_fu_intALU=2: 1.103426
+config.xml movido a mp3encResult_l22MB_l34MB_nfu4_intALU2/config.xml
+1.45585
+Runtime Dynamic para mp3_enc con num_fu_intALU=2: 1.45585
+Resultado IPC para mp3_enc con num_fu_intALU=2: 0.837098
+Prueba 17:
+config.xml movido a h264decResult_l22MB_l38MB_nfu4_intALU4/config.xml
+2.69226
+Runtime Dynamic para h264_dec con num_fu_intALU=4: 2.69226
+Resultado IPC para h264_dec con num_fu_intALU=4: 1.126074
+config.xml movido a h264encResult_l22MB_l34MB_nfu4_intALU4/config.xml
+2.21004
+Runtime Dynamic para h264_enc con num_fu_intALU=4: 2.21004
+Resultado IPC para h264_enc con num_fu_intALU=4: 1.074143
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu2_intALU4/config.xml
+2.83323
+Runtime Dynamic para jpg2k_dec con num_fu_intALU=4: 2.83323
+Resultado IPC para jpg2k_dec con num_fu_intALU=4: 0.844089
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu4_intALU4/config.xml
+3.0681
+Runtime Dynamic para jpg2k_enc con num_fu_intALU=4: 3.0681
+Resultado IPC para jpg2k_enc con num_fu_intALU=4: 0.914592
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu4_intALU4/config.xml
+2.06001
+Runtime Dynamic para mp3_dec con num_fu_intALU=4: 2.06001
+Resultado IPC para mp3_dec con num_fu_intALU=4: 1.105379
+config.xml movido a mp3encResult_l22MB_l34MB_nfu4_intALU4/config.xml
+1.45603
+Runtime Dynamic para mp3_enc con num_fu_intALU=4: 1.45603
+Resultado IPC para mp3_enc con num_fu_intALU=4: 0.837333
+Prueba 18:
+config.xml movido a h264decResult_l22MB_l38MB_nfu4_intALU8/config.xml
+2.69223
+Runtime Dynamic para h264_dec con num_fu_intALU=8: 2.69223
+Resultado IPC para h264_dec con num_fu_intALU=8: 1.126097
+config.xml movido a h264encResult_l22MB_l34MB_nfu4_intALU8/config.xml
+2.20989
+Runtime Dynamic para h264_enc con num_fu_intALU=8: 2.20989
+Resultado IPC para h264_enc con num_fu_intALU=8: 1.074006
+config.xml movido a hjgpdecResult_l21MB_l38MB_nfu2_intALU8/config.xml
+2.83309
+Runtime Dynamic para jpg2k_dec con num_fu_intALU=8: 2.83309
+Resultado IPC para jpg2k_dec con num_fu_intALU=8: 0.844131
+config.xml movido a hjgpencResult_l22MB_l38MB_nfu4_intALU8/config.xml
+3.06676
+Runtime Dynamic para jpg2k_enc con num_fu_intALU=8: 3.06676
+Resultado IPC para jpg2k_enc con num_fu_intALU=8: 0.914581
+config.xml movido a mp3decResult_l2512kB_l34MB_nfu4_intALU8/config.xml
+2.05925
+Runtime Dynamic para mp3_dec con num_fu_intALU=8: 2.05925
+Resultado IPC para mp3_dec con num_fu_intALU=8: 1.105382
+config.xml movido a mp3encResult_l22MB_l34MB_nfu4_intALU8/config.xml
+1.45623
+Runtime Dynamic para mp3_enc con num_fu_intALU=8: 1.45623
+Resultado IPC para mp3_enc con num_fu_intALU=8: 0.837503
+Mejores num_fu_intALU por proceso: {'h264_dec': 8, 'h264_enc': 4, 'jpg2k_dec': 8, 'jpg2k_enc': 4, 'mp3_dec': 8, 'mp3_enc': 8}
+
+2. # Valores de los parámetros a probar
+l2_sizes = ["512kB", "1MB", "2MB"]
+l2_assocs = [2, 4, 8]
+l3_sizes = ["4MB", "8MB", "16MB"]
+l3_assocs = [8, 16, 32]
+num_fu_reads = [1, 2, 4]
+num_fu_intALUs = [2, 4, 8]
+
+3. Se pueden ver en los resultados de el 1
+4. Se ven al final de cada 3 simulaciones. ademas esta es la definitiva:
+Mejores configuraciones finales por proceso:
+h264_dec: {'l2_size': '2MB', 'l2_assoc': 8, 'l3_size': '8MB', 'l3_assoc': 8, 'num_fu_read': 4, 'num_fu_intALU': 8}
+h264_enc: {'l2_size': '2MB', 'l2_assoc': 4, 'l3_size': '4MB', 'l3_assoc': 8, 'num_fu_read': 4, 'num_fu_intALU': 4}
+jpg2k_dec: {'l2_size': '1MB', 'l2_assoc': 4, 'l3_size': '8MB', 'l3_assoc': 8, 'num_fu_read': 2, 'num_fu_intALU': 8}
+jpg2k_enc: {'l2_size': '2MB', 'l2_assoc': 2, 'l3_size': '8MB', 'l3_assoc': 8, 'num_fu_read': 4, 'num_fu_intALU': 4}
+mp3_dec: {'l2_size': '512kB', 'l2_assoc': 2, 'l3_size': '4MB', 'l3_assoc': 8, 'num_fu_read': 4, 'num_fu_intALU': 8}
+mp3_enc: {'l2_size': '2MB', 'l2_assoc': 4, 'l3_size': '4MB', 'l3_assoc': 8, 'num_fu_read': 4, 'num_fu_intALU': 8}
+5. Si los tengo, Pero es sacar 1 por uno de cada archivo, de ser 100% necesario me lo dices te los entrego.
+
+
+h264_dec:
+values = [1.065032, 1.105373, 1.105553, 1.105657, 1.105657, 1.125778, 1.126097]
+params = ['', '2MB', '8', '8MB', '8', '4', '8']
+
+h264_enc:
+values = [1.009344, 1.056809, 1.058638, 1.058638, 1.058638, 1.073819, 1.074143]
+params = ['', '2MB', '4', '4MB', '8', '4', '4']
+
+jpg2k_dec:
+values = [0.835481, 0.834011, 0.834039, 0.834105, 0.834105, 0.843714, 0.844131]
+params = ['', '1MB', '4', '8MB', '8', '2', '8']
+
+jpg2k_enc:
+values = [0.896866, 0.900538, 0.900538, 0.903265, 0.903265, 0.914028, 0.914592]
+params = ['', '2MB', '2', '8MB', '8', '4', '4']
+
+mp3_dec:
+values = [1.086794, 1.059258, 1.059258, 1.059258, 1.059258, 1.103426, 1.105382]
+params = ['', '512KB', '2', '4MB', '8', '4', '8']
+
+mp3_enc:
+values = [0.833469, 0.806953, 0.807024, 0.807024, 0.807024, 0.834586, 0.837333]
+params = ['', '2MB', '4', '4MB', '8', '4', '8']
