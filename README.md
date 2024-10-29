@@ -51,4 +51,4 @@ Para reproducir este proyecto, se requiere:
 2. Clona este repositorio:  
    ```bash
    git clone https://github.com/jbcgames/General_Test
-
+3. Ejecuta los scripts de simulación en la carpeta scripts/.
